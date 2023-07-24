@@ -1,0 +1,3 @@
+# IMPORTANT: This will check your notebook's metadata for grading.
+# Please do not continue the lab unless the output of this cell tells you to proceed. 
+!python add_metadata.py --filename C1W1_Assignment.ipynb
