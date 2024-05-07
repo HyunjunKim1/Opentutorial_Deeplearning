@@ -1,7 +1,7 @@
 # Opentutorial_Deeplearning
-생코 딥러닝 (Tensorflow) 여러가지 학습👍🏼
+딥러닝 (Tensorflow) 여러가지 학습👍🏼
 
-생코에서 배우는 여러 딥러닝들 정리 자료입니다.
+공부한 내용들, 여러 딥러닝 모델 및 예제 정리 자료입니다.
 
 OpenTutorial 예제
 
