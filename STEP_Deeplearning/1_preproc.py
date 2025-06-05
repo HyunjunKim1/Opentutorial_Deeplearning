@@ -22,14 +22,14 @@ def visualize(images, titles):        # 4개의 영상과 제목을 불러와 �
 bright = tf.image.adjust_brightness(image, delta=0.2)           # 밝기 조절
 contrast = tf.image.adjust_contrast(image, contrast_factor=0.8) # 대조비 조절
 gamma = tf.imaage.adjust_gamma(image, gamma=1.6)                 # 감마 조절
-visualize([imge, bright, contrast, gamma], ['original', 'bright', 'contrast', 'gamma'])
+visualize([image, bright, contrast, gamma], ['original', 'bright', 'contrast', 'gamma'])
 
 
 # 색상 변화
 grayscaled = tf.image.rgb_to_grayscale(image)                       # 회색조로 변환
 saturated = tf.image.adjust_saturation(image, saturation_factor=2)  # 채도 변화
 hue = tf.ima.adjust_hue(image, delta=0.04)                  # 색상 변화 주기
-visualize([imagege, grayscaled, saturated, hue], ['original', 'grayscaled', 'saturated', 'hue'])
+visualize([image, grayscaled, saturated, hue], ['original', 'grayscaled', 'saturated', 'hue'])
 
 
 # 영상의 상하좌우 대칭 및 회전이동
