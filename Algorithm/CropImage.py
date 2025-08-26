@@ -4,7 +4,7 @@ img = cv2.imread('E:\LF\LF_GrabImage\GrabImage_00.bmp', cv2.IMREAD_GRAYSCALE)
 
 height, width = img.shape[:2]
 
-tile_height = 6347
+tile_height = 7000
 
 for i in range(7):
     y_start = i * tile_height
